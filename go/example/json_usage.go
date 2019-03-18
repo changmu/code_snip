@@ -41,6 +41,8 @@ func main() {
 		}
 	}`
 
+	// json.NewDecoder(request.Body).Decode(js)
+
 	//json str 转map
 	type MapJson = map[string]interface{}
 	var dat MapJson
